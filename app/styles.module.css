@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr min(960px, 90%) 1fr;
+  grid-template-rows: 72px minmax(calc(100vh - 144px), auto) 72px;
+}
+
+.container > * {
+  grid-column: 2;
+}
