@@ -7,3 +7,7 @@
 .container > * {
   grid-column: 2;
 }
+
+.blogsContainer > *:not(:last-child) {
+  margin-bottom: 16px;
+}
