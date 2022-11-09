@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 
 function BlogCard({ title, body, id }) {
   return (
-    <Link href="/" className={styles.card}>
+    <Link href={`/${id}`} className={styles.card}>
       <div className={styles.cardImage}>
         <Image
           src={`https://picsum.photos/200/300?random=${id}`}

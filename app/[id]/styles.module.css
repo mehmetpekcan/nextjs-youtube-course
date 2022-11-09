@@ -1,0 +1,22 @@
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cardImage {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.cardImage img {
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.title {
+  font-size: 48px;
+  margin-top: 8px;
+}
